@@ -1,1 +1,5 @@
 # BigInteger
+
+This project implements a BigInteger class, which in effect serves as a way to store integer values without any limitations on storage space. Therefore, it is not constrained to the size limits that Java primitive types such as ints and longs are subject to. Each BigInteger object can store positive or negative integers of any number of digits, which is useful for applications involving numbers written in scientific notation (i.e. astronomical distances and speeds). 
+
+Each BigInteger object is comprised of a linked list in which each node represents a digit. There are 3 methods in the BigInteger class: parse, add, and multiply. The parse method takes in a String that represents an integer and converts it into the appropriate BigInteger object. The add method adds the input BigInteger sent in as a parameter to the BigInteger object itself. It can also support subtraction since the input BigInteger can be positive or negative. Lastly, the multiply method supports multiplication of two BigIntegers.
